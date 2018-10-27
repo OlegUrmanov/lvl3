@@ -56,9 +56,10 @@
 }
 
 #bottomPanel{
-    height: 100px;
+    top: auto 0;
+    height: 50px;
     background:#EEE;
-    position:absolute;
+    position: fixed;
     bottom:0px;
     left:0px;
     right:0px;
