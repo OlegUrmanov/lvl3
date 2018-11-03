@@ -40,12 +40,24 @@
   margin-right: 5px;
 }
 @media (max-width:480px) {
-  .scene .cinemaHall{
-    font-size: 50%;
-  }
-}
-@media (max-width:480px) {
   .cinemaHall {
     font-size: 50%;
+    top: 50%;
+    /*height: 40px;
+    width: 40px;*/
+  }
+  .seat{
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (min-width:480px) {
+  .cinemaHall {
+    font-size: 50%;
+    top: 50%;
+  }
+  .seat{
+    height: 25px;
+    width: 25px;
   }
 }
